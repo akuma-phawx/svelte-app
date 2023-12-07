@@ -1,10 +1,14 @@
 <script>
     export let events; 
+    export let map;
     let selectedEvent = events[0]; 
   
-    // Whenever the selectedEvent changes
     $: if (selectedEvent) {
-      // here i will have to handle the main functionality that was asked
+      console.log(selectedEvent)
+      if(map){
+        map.setZoom(15)
+        map.flyTo({center:selectedEvent.geometry.coordinates})
+      }
     }
   
     const formatDate = (date) => {
@@ -23,7 +27,7 @@
     <div class="timeline-container">
       <h3>Region: {selectedEvent.region}</h3>
     <hr>
-      <h4>Detections</h4>
+      <h4>Detections Timeline</h4>
       <table>
         <thead>
           <tr>
