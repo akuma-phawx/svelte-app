@@ -28,6 +28,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@beyonk/svelte-mapbox", "virtual:523f92577d6bcbd3334da2c61ecfbe9106ff9e28bdbc00f8170e1287d886a39bc27d7ba6d601ca9d3d6dcdc03901720ae9d8f2a419ca8781c7167ddb1f49df25#npm:9.1.0"],\
           ["@rollup/plugin-commonjs", "virtual:523f92577d6bcbd3334da2c61ecfbe9106ff9e28bdbc00f8170e1287d886a39bc27d7ba6d601ca9d3d6dcdc03901720ae9d8f2a419ca8781c7167ddb1f49df25#npm:24.1.0"],\
+          ["@rollup/plugin-json", "virtual:523f92577d6bcbd3334da2c61ecfbe9106ff9e28bdbc00f8170e1287d886a39bc27d7ba6d601ca9d3d6dcdc03901720ae9d8f2a419ca8781c7167ddb1f49df25#npm:6.0.1"],\
           ["@rollup/plugin-node-resolve", "virtual:523f92577d6bcbd3334da2c61ecfbe9106ff9e28bdbc00f8170e1287d886a39bc27d7ba6d601ca9d3d6dcdc03901720ae9d8f2a419ca8781c7167ddb1f49df25#npm:15.2.3"],\
           ["@rollup/plugin-terser", "virtual:523f92577d6bcbd3334da2c61ecfbe9106ff9e28bdbc00f8170e1287d886a39bc27d7ba6d601ca9d3d6dcdc03901720ae9d8f2a419ca8781c7167ddb1f49df25#npm:0.4.4"],\
           ["rollup", "npm:3.29.4"],\
@@ -208,6 +209,29 @@ const RAW_RUNTIME_STATE =
           ["glob", "npm:8.1.0"],\
           ["is-reference", "npm:1.2.1"],\
           ["magic-string", "npm:0.27.0"],\
+          ["rollup", "npm:3.29.4"]\
+        ],\
+        "packagePeers": [\
+          "@types/rollup",\
+          "rollup"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@rollup/plugin-json", [\
+      ["npm:6.0.1", {\
+        "packageLocation": "../../.yarn/berry/cache/@rollup-plugin-json-npm-6.0.1-9652c7ccf8-10c0.zip/node_modules/@rollup/plugin-json/",\
+        "packageDependencies": [\
+          ["@rollup/plugin-json", "npm:6.0.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:523f92577d6bcbd3334da2c61ecfbe9106ff9e28bdbc00f8170e1287d886a39bc27d7ba6d601ca9d3d6dcdc03901720ae9d8f2a419ca8781c7167ddb1f49df25#npm:6.0.1", {\
+        "packageLocation": "./.yarn/__virtual__/@rollup-plugin-json-virtual-5827810ced/3/.yarn/berry/cache/@rollup-plugin-json-npm-6.0.1-9652c7ccf8-10c0.zip/node_modules/@rollup/plugin-json/",\
+        "packageDependencies": [\
+          ["@rollup/plugin-json", "virtual:523f92577d6bcbd3334da2c61ecfbe9106ff9e28bdbc00f8170e1287d886a39bc27d7ba6d601ca9d3d6dcdc03901720ae9d8f2a419ca8781c7167ddb1f49df25#npm:6.0.1"],\
+          ["@rollup/pluginutils", "virtual:458a38450c2a9c52eda915819d19d771f45ad63593a4f44cb2cab7192c61a2f25cdc31b85ee8d7bd26b9deddc29f4e35830e66055bbd6758af040360806986c2#npm:5.1.0"],\
+          ["@types/rollup", null],\
           ["rollup", "npm:3.29.4"]\
         ],\
         "packagePeers": [\
@@ -1753,6 +1777,7 @@ const RAW_RUNTIME_STATE =
           ["svelte-app", "workspace:."],\
           ["@beyonk/svelte-mapbox", "virtual:523f92577d6bcbd3334da2c61ecfbe9106ff9e28bdbc00f8170e1287d886a39bc27d7ba6d601ca9d3d6dcdc03901720ae9d8f2a419ca8781c7167ddb1f49df25#npm:9.1.0"],\
           ["@rollup/plugin-commonjs", "virtual:523f92577d6bcbd3334da2c61ecfbe9106ff9e28bdbc00f8170e1287d886a39bc27d7ba6d601ca9d3d6dcdc03901720ae9d8f2a419ca8781c7167ddb1f49df25#npm:24.1.0"],\
+          ["@rollup/plugin-json", "virtual:523f92577d6bcbd3334da2c61ecfbe9106ff9e28bdbc00f8170e1287d886a39bc27d7ba6d601ca9d3d6dcdc03901720ae9d8f2a419ca8781c7167ddb1f49df25#npm:6.0.1"],\
           ["@rollup/plugin-node-resolve", "virtual:523f92577d6bcbd3334da2c61ecfbe9106ff9e28bdbc00f8170e1287d886a39bc27d7ba6d601ca9d3d6dcdc03901720ae9d8f2a419ca8781c7167ddb1f49df25#npm:15.2.3"],\
           ["@rollup/plugin-terser", "virtual:523f92577d6bcbd3334da2c61ecfbe9106ff9e28bdbc00f8170e1287d886a39bc27d7ba6d601ca9d3d6dcdc03901720ae9d8f2a419ca8781c7167ddb1f49df25#npm:0.4.4"],\
           ["rollup", "npm:3.29.4"],\
